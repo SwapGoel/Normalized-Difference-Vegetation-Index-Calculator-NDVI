@@ -1,0 +1,8 @@
+# Ignore the virtual environment
+satintel/
+
+# Ignore Python's cache files
+__pycache__/
+
+# Ignore temporary user uploads
+uploads/
