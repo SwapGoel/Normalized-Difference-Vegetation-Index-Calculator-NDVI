@@ -5,4 +5,14 @@ satintel/
 __pycache__/
 
 # Ignore temporary user uploads
-uploads/
+uploads/*
+
+
+!uploads/.gitkeep
+
+
+# Ignore the contents of the static folder...
+static/*
+
+# ...but DO track the .gitkeep file.
+!static/.gitkeep
